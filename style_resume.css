@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    width: 900px !important;
+    height: auto;
+    display: flex;
+    margin: 25px auto;
+}
+
+.inf_icon{
+    width: 30px;
+    height: 30px;
+}
+
+.icon_social{
+    font-size: 35px;
+    text-align: center;
+}
+
+.sk_part{
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sk_name{
+    text-align: left;
+}
+
+.sk_progress{
+    padding-left: 0 !important;
+    height: 5px;
+    background: grey;
+}
+
+.sk_progress span{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background: white;
+}
+
+.sub_social div{
+    word-wrap: break-word;
+    padding: 0;
+}
+
+.main_right h5{
+    color: #0bb5f4;
+    font-weight: bolder;
+    padding-bottom: 8px;
+    font-size: 28px !important;
+}
+
+.exp_info::before, .edu_info::before{
+    content: "";
+    position: absolute;
+    margin-top: 9px;
+    left: 20px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #0BB5F3;
+ }
+ 
+ .exp_info::after, .edu_info::after{
+     content: "";
+     position: absolute;
+     margin-top: -90px;
+     left: 23px;
+     width: 2px;
+     height: 93px;
+     background: #0bb5f4;
+ }
+
+.main_right p, .date{
+    font-family: "Cambria", sans-serif;
+}
+
+.exp_info, .edu_info{
+    height: 100px;
+}
+
+.date{
+    font-size: large;
+}
+
+.hobby{
+    justify-content: space-evenly;
+}
+
+.hobby_cont{
+    text-align: center;
+    color: #0bb5f4;
+    font-size: 17pt;
+    border: 2px solid #0bb5f4;
+    width: 70px ; 
+    height: 70px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 30px;
+}
+
+.hobby_cont .fas{
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
